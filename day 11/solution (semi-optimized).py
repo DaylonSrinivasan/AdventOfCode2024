@@ -45,9 +45,7 @@ def blink(stones):
         curr = curr.next
     
 def solution(stones):
-    # solves part 1 faster, but not part 2
     for i in range(25):
-        print(i)
         blink(stones)
     i = 0
     curr = stones

@@ -39,6 +39,7 @@ def main():
     solution = Solution()
     numBlinks = 75
     print(solution.solve(parse(input), numBlinks))
+    print(len(solution._cache))
 
 main()        
         
